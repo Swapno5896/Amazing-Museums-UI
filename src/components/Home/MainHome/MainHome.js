@@ -4,7 +4,7 @@ import TopBanner from "../TopBanner/TopBanner";
 import Footer from "../Footer/Footer";
 import SmallGllery from "./../SmallGllery/SmallGllery";
 import SmallHistory from "./../SmallHistory/SmallHistory";
-import Events from "../Events/Events";
+import Events from "../../Events/Events/Events";
 const MainHome = () => {
   return (
     <div>
