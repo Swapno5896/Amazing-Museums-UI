@@ -4,40 +4,30 @@ import img2 from '../../../images/m-2.png'
 import img3 from '../../../images/m-m.png'
 const MyNavBar = () => {
     return (
-        <div>
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-6">
-                        <h2>This is our musemume</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto voluptate quae fuga velit error. Deserunt amet molestiae praesentium officia nostrum similique, suscipit earum! Eligendi dicta nihil quae quos nisi consequatur.</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore enim quis alias deleniti quaerat sunt ab, repudiandae error sed nisi earum, vitae quia cupiditate facilis esse hic quasi impedit exercitationem!</p>
-                    </div>
-                    <div className="col-md-6">
-                        <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
-                            <div className="carousel-inner">
-                                <div className="carousel-item active" data-bs-interval="10000">
-                                    <img src={img1} className="d-block w-100" alt="..." />
-                                </div>
-                                <div className="carousel-item" data-bs-interval="2000">
-                                    <img src={img2} className="d-block w-100" alt="..." />
-                                </div>
-                                <div className="carousel-item">
-                                    <img src={img3} className="d-block w-100" alt="..." />
-                                </div>
-                            </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Previous</span>
-                            </button>
-                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                    </div>
+
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="#">Musemum</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarText">
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Features</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Pricing</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
+
+
     );
 };
 
