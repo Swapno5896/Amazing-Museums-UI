@@ -13,7 +13,7 @@ const Events = () => {
     },
     {
       img: img1,
-      title: "LET’S CELEBRATE 25TH MUSEUM DAY",
+      title: "ANCIENT STATUES CASE STUDY",
       location: " Melbourne, Australia",
       time: "Wed 10AM - 12PM",
       description:
@@ -37,10 +37,12 @@ const Events = () => {
     },
   ];
   return (
-    <div className="row">
-      {eventData.map((dt) => (
-        <EventCard dt={dt} />
-      ))}
+    <div className="d-flex justify-content-center">
+      <div className="row w-75">
+        {eventData.map((dt) => (
+          <EventCard dt={dt} />
+        ))}
+      </div>
     </div>
   );
 };
