@@ -1,39 +1,21 @@
 import React from 'react';
 import img1 from '../../../images/m-1.png'
+import SmallGlleryCard from '../SmallGlleryCard/SmallGlleryCard';
 const SmallGllery = () => {
+    const fakesmalGallary = [
+        { img: img1, title: `ANCIENT STATUES COLLECTIONS`, location: `ORGIN: Naples, Italy` },
+        { img: img1, title: `DINOSAURS SKELETON`, location: `ORGIN: South Africa, Africa` },
+        { img: img1, title: `MODERN ART COLLECTIONS`, location: `ORGIN: New York, USA` },
+    ]
     return (
         <div>
-            <h2 className='text-center'>Gallary section</h2>
+            <h2 className='text-center'>GALLERY</h2>
+            <p className="text-center">The Love Boat soon will be making another run. The Love Boat promises something for everyone.</p>
             <div className="d-flex justify-content-center">
                 <div className="row w-75">
-                    <div className="col-md-4">
-                        <div className="card">
-                            <img src={img1} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">Gallary title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="card">
-                            <img src={img1} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">Gallary title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="card">
-                            <img src={img1} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">Gallary title</h5>
-                                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-
+                    {
+                        fakesmalGallary.map(gallary => <SmallGlleryCard gallary={gallary} />)
+                    }
                 </div>
             </div>
         </div>

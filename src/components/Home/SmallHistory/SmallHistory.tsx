@@ -2,16 +2,16 @@ import React from 'react';
 import img1 from '../../../images/m-1.png'
 const SmallHistory = () => {
     return (
-        <div>
-            <div className="container">
+        <div style={{ backgroundColor: 'blanchedalmond', padding: '80px 0px', margin: '100px 0px' }}>
+            <div className="container" >
                 <div className="row">
                     <div className="col-md-6">
-                        <img src={img1} alt="" />
+                        <img style={{ width: '100%' }} src={img1} alt="" />
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6" >
                         <h3 className='text-center'>This is museum</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio, blanditiis repellendus eius corporis illo culpa suscipit tenetur quibusdam dicta ullam voluptatem commodi architecto, harum omnis laudantium, obcaecati hic est?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil fuga fugit suscipit sunt rem explicabo assumenda alias, ad dolores eveniet facere nesciunt, ullam blanditiis a eius consectetur quis adipisci omnis.</p>
+                        <p>Scelerisque, felis eget Auctor dictum tempus molestie auctor consectetuer sit nisl, tempor, ultrices velit nascetur ullamcorper torquent adipiscing felis interdum. Vel nibh. Eget maecenas gravida urna nascetur sit. Taciti at suspendisse rutrum.</p>
+                        <p>Donec quis tortor tempus, lacinia sem nec, accumsan diam. Ut condimentum eget risus at ultrices. Integer molestie augue eros, ac dignissim velit placerat ut. Sed vel leo ac eros tincidunt porttitor. Aliquam erat volutpat.</p>
 
                         <h3 className='text-center'>ON VIEW</h3>
                         <div className="row">

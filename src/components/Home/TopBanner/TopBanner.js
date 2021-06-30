@@ -4,22 +4,24 @@ import img2 from "../../../images/m-2.png";
 import img3 from "../../../images/m-m.png";
 const TopBanner = () => {
   return (
-    <div className="container">
+    <div className="container" style={{ height: "550px" }}>
       <div className="row">
-        <div className="col-md-6">
-          <h2>This is our musemume</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-            voluptate quae fuga velit error. Deserunt amet molestiae praesentium
-            officia nostrum similique, suscipit earum! Eligendi dicta nihil quae
-            quos nisi consequatur.
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
-            enim quis alias deleniti quaerat sunt ab, repudiandae error sed nisi
-            earum, vitae quia cupiditate facilis esse hic quasi impedit
-            exercitationem!
-          </p>
+        <div className="col-md-6 d-flex align-items-center">
+          <div>
+            <h2>This is our musemume</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Architecto voluptate quae fuga velit error. Deserunt amet
+              molestiae praesentium officia nostrum similique, suscipit earum!
+              Eligendi dicta nihil quae quos nisi consequatur.
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+              enim quis alias deleniti quaerat sunt ab, repudiandae error sed
+              nisi earum, vitae quia cupiditate facilis esse hic quasi impedit
+              exercitationem!
+            </p>
+          </div>
         </div>
         <div className="col-md-6">
           <div
