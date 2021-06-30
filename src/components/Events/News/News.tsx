@@ -3,7 +3,8 @@ import img from '../../../images/m-1.png'
 const News = (props: any) => {
     const { img, title, date } = props.dt;
     return (
-        <div className="card mb-3" style={{ maxWidth: '450px' }}>
+
+        <div className=" mb-3" style={{ maxWidth: '400px', }}>
             <div className="row g-0">
                 <div className="col-md-4">
                     <img style={{ width: '100%' }} src={img} alt="..." />
@@ -15,7 +16,9 @@ const News = (props: any) => {
                     </div>
                 </div>
             </div>
+            <hr />
         </div>
+
     );
 };
 
