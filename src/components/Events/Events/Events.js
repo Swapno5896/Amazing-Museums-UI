@@ -37,11 +37,19 @@ const Events = () => {
     },
   ];
   return (
-    <div className="d-flex justify-content-center">
-      <div className="row w-75">
-        {eventData.map((dt) => (
-          <EventCard dt={dt} />
-        ))}
+    <div>
+      <h2 className="text-center pb-3">EVENTS</h2>
+      <p className="text-center pb-2">
+        The movie star the professor and Mary Ann here on Gilligans Isle. Just
+        sit right back and you'll hear.
+      </p>
+
+      <div className="d-flex justify-content-center">
+        <div className="row w-75">
+          {eventData.map((dt) => (
+            <EventCard dt={dt} />
+          ))}
+        </div>
       </div>
     </div>
   );
