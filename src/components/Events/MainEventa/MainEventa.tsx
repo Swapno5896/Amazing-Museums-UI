@@ -48,13 +48,13 @@ const MainEventa = () => {
     return (
 
         <div className="row">
-            <div className="col-md-4 offset-md-2">
+            <div className="col-md-5 offset-md-2">
                 {eventData.map((dt) => (
                     <EventCard dt={dt} />
                 ))}
             </div>
 
-            <div className="col-md-3 offset-md-2">
+            <div className="col-md-3 offset-md-1">
                 <div style={{ backgroundColor: 'goldenrod' }}>
                     <div className='d-flex justify-content-center'>
                         <input style={{ width: '250px', margin: '20px' }} type="text" placeholder='Search hear' />

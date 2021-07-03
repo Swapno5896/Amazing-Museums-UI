@@ -9,7 +9,7 @@ import {
 const MyNavBar = () => {
     return (
 
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">Musemum</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
