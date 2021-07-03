@@ -1,4 +1,5 @@
 import React from 'react';
+import './SmallGllery.css'
 import img1 from '../../../images/m-1.png'
 import SmallGlleryCard from '../SmallGlleryCard/SmallGlleryCard';
 const SmallGllery = () => {
@@ -8,9 +9,9 @@ const SmallGllery = () => {
         { img: img1, title: `MODERN ART COLLECTIONS`, location: `ORGIN: New York, USA` },
     ]
     return (
-        <div>
-            <h2 className='text-center'>GALLERY</h2>
-            <p className="text-center">The Love Boat soon will be making another run. The Love Boat promises something for everyone.</p>
+        <div className='small-gallary-container'>
+            <h2 className='text-center pb-5'>GALLERY</h2>
+            <p className="text-center pb-3">The Love Boat soon will be making another run. The Love Boat promises something for everyone.</p>
             <div className="d-flex justify-content-center">
                 <div className="row w-75">
                     {
