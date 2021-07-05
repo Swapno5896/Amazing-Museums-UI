@@ -26,6 +26,9 @@ const MyNavBar = () => {
                         <li className="nav-item">
                             <Link className="nav-link  pe-4" to='/gallary'>Gallary</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link  pe-4" to='/admin'>Admin</Link>
+                        </li>
                     </ul>
                 </div>
             </div>

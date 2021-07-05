@@ -9,6 +9,7 @@ import MainHome from '../src/components/Home/MainHome/MainHome'
 import MainEventa from './components/Events/MainEventa/MainEventa';
 import MainGallary from '../src/components/Gallary/MainGallary/MainGallary'
 import MyNavBar from './components/Home/myNavBar/MyNavBar';
+import MainAdmin from './components/Admin/MainAdmin/MainAdmin'
 const App = () => {
   return (
     <div>
@@ -26,6 +27,9 @@ const App = () => {
           </Route>
           <Route exact path='/gallary'>
             <MainGallary />
+          </Route>
+          <Route exact path='/admin'>
+            <MainAdmin />
           </Route>
         </Switch>
       </Router>

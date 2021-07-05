@@ -9,7 +9,7 @@ const TopBanner = () => {
       <div className="row">
         <div className="col-md-6 d-flex align-items-center">
           <div>
-            <h2 className="text-center">This is our musemume</h2>
+            <h2 className="text-center pb-3">This is our musemume</h2>
             <p className="text-center">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Architecto voluptate quae fuga velit error. Deserunt amet
