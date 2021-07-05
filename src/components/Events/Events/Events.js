@@ -37,7 +37,7 @@ const Events = () => {
     },
   ];
   return (
-    <div>
+    <div className="mb-5 pb-5">
       <h2 className="text-center pb-3">EVENTS</h2>
       <p className="text-center pb-2">
         The movie star the professor and Mary Ann here on Gilligans Isle. Just

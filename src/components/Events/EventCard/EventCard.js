@@ -3,7 +3,7 @@ import React from "react";
 const EventCard = (props) => {
   const { img, title, location, time, description } = props.dt;
   return (
-    <div className="card mb-3 mt-3">
+    <div style={{ width: "100%" }} className=" col-md-6 card mb-3 mt-3">
       <div className="row g-0">
         <div className="col-md-4">
           <img style={{ width: "100%", height: "100%" }} src={img} alt="..." />
