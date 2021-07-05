@@ -29,8 +29,7 @@ const App = () => {
           </Route>
         </Switch>
       </Router>
-      {/*  */}
-      {/**/}
+   
 
     </div>
   );
