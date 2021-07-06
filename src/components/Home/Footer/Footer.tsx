@@ -13,16 +13,17 @@ const Footer = () => {
 
                     </div>
                     <div className="col-md-3 ps-5">
-                        <h2>This is link</h2>
-                        <p>Hallo Eofkd</p>   <p>Hallo Eofkd</p>   <p>Hallo Eofkd</p>   <p>Hallo Eofkd</p>
+                        <h2>This Home</h2>
+                        <p> Our Events</p>   <p>Beautiful Gallary</p>   <p>Find More</p>   <p>Privacy Policy</p>
                     </div>
                     <div className="col-md-3">
                         <h2>Guides</h2>
-                        <p>Hallo Eofkd</p>   <p>Hallo Eofkd</p>   <p>Hallo Eofkd</p>   <p>Hallo Eofkd</p>   <p>Hallo Eofkd</p>
+                        | |  |
+                        <p>Terms and Conditions</p>   <p>Refund policy</p>     <p>Terms & Conditions</p>   <p> Privacy Policy</p>
                     </div>
                     <div className="col-md-3">
                         <h2> Important things</h2>
-                        <p>Hallo Eofkd</p>   <p>Hallo Eofkd</p>   <p>Hallo Eofkd</p>   <p>Hallo Eofkd</p>   <p>Hallo Eofkd</p>
+                        <p>Refund Policy </p>      <p>HTerms & Conditions</p>   <p>Hallo Eofkd</p>   <p>Your Account</p>
                     </div>
                 </div>
             </div>

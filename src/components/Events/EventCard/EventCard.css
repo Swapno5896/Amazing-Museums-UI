@@ -1,0 +1,15 @@
+.event-cardd :hover{
+ /* box-shadow: 5px 2px 30px red; */
+ 
+}
+.event-card{
+ background-color: aliceblue;
+}
+.event-book-btn{
+ color:#ad2525;
+ transition: ease-out .3s;
+ background-color: gold;
+}
+.event-book-btn:hover{
+ background-color:rgb(231, 217, 217)
+}

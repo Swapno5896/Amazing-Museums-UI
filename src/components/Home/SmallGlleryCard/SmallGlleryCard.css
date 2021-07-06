@@ -1,0 +1,6 @@
+.small-gallary-card{
+ overflow: hidden;
+}
+.small-gallary-img:hover{
+ width: 110%; transition: ease-out .3s;
+}
