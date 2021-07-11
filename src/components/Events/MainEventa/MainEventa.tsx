@@ -1,63 +1,76 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import News from '../News/News';
 import EventCard from '../EventCard/EventCard'
 import ImageCard from './../ImageCard/ImageCard';
-import img1 from '../../../images/m-1.png'
+
+interface Ievent {
+    img: '';
+    title: '';
+    location: '';
+    time: '',
+    description: ''
+}
 const MainEventa = () => {
-    const uploadBlog = () => {
-        fetch('http://localhost:9000/addEvent', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(eventData),
-        })
+    const [event, setEvent] = useState<Ievent[]>([])
+    useEffect(() => {
+        fetch('https://hidden-brushlands-43624.herokuapp.com/getEvent')
             .then(response => response.json())
-            .then(data => {
-                console.log('Success:', data);
-            })
-            .catch((error) => {
-                console.error('Error:', error);
-            });
-    }
-    const eventData = [
-        {
-            img: `https://premiumlayers.com/new/museum/wp-content/uploads/2015/10/event-img-4-289x365.jpg
-            `,
-            title: "LET’S CELEBRATE 25TH MUSEUM DAY",
-            location: " Melbourne, Australia",
-            time: "Wed 10AM - 12PM",
-            description:
-                "I have always wanted to have a neighbor just like you. I've always wanted to live in a neighborhood with you",
-        },
-        {
-            img: `https://premiumlayers.com/new/museum/wp-content/uploads/2015/10/event-img-1-289x365.jpg
-            `,
-            title: "ANCIENT STATUES CASE STUDY",
-            location: " Melbourne, Australia",
-            time: "Wed 10AM - 12PM",
-            description:
-                "I have always wanted to have a neighbor just like you. I've always wanted to live in a neighborhood with you",
-        },
-        {
-            img: `https://premiumlayers.com/new/museum/wp-content/uploads/2015/10/event-img-2-289x365.jpg
-            `,
-            title: "DINOSAURS SKELETON",
-            location: " Melbourne, Australia",
-            time: "Wed 10AM - 12PM",
-            description:
-                "I have always wanted to have a neighbor just like you. I've always wanted to live in a neighborhood with you",
-        },
-        {
-            img: `https://premiumlayers.com/new/museum/wp-content/uploads/2015/10/event-img-3-289x365.jpg
-            `,
-            title: "ANCIENT BUILDING STRUCTURES",
-            location: " Melbourne, Australia",
-            time: "Wed 10AM - 12PM",
-            description:
-                "I have always wanted to have a neighbor just like you. I've always wanted to live in a neighborhood with you",
-        },
-    ];
+            .then(data => setEvent(data));
+    }, [])
+    // const uploadBlog = () => {
+    //     fetch('http://localhost:9000/addEvent', {
+    //         method: 'POST',
+    //         headers: {
+    //             'Content-Type': 'application/json',
+    //         },
+    //         body: JSON.stringify(eventData),
+    //     })
+    //         .then(response => response.json())
+    //         .then(data => {
+    //             console.log('Success:', data);
+    //         })
+    //         .catch((error) => {
+    //             console.error('Error:', error);
+    //         });
+    // }
+    // const eventData = [
+    //     {
+    //         img: `https://premiumlayers.com/new/museum/wp-content/uploads/2015/10/event-img-4-289x365.jpg
+    //         `,
+    //         title: "LET’S CELEBRATE 25TH MUSEUM DAY",
+    //         location: " Melbourne, Australia",
+    //         time: "Wed 10AM - 12PM",
+    //         description:
+    //             "I have always wanted to have a neighbor just like you. I've always wanted to live in a neighborhood with you",
+    //     },
+    //     {
+    //         img: `https://premiumlayers.com/new/museum/wp-content/uploads/2015/10/event-img-1-289x365.jpg
+    //         `,
+    //         title: "ANCIENT STATUES CASE STUDY",
+    //         location: " Melbourne, Australia",
+    //         time: "Wed 10AM - 12PM",
+    //         description:
+    //             "I have always wanted to have a neighbor just like you. I've always wanted to live in a neighborhood with you",
+    //     },
+    //     {
+    //         img: `https://premiumlayers.com/new/museum/wp-content/uploads/2015/10/event-img-2-289x365.jpg
+    //         `,
+    //         title: "DINOSAURS SKELETON",
+    //         location: " Melbourne, Australia",
+    //         time: "Wed 10AM - 12PM",
+    //         description:
+    //             "I have always wanted to have a neighbor just like you. I've always wanted to live in a neighborhood with you",
+    //     },
+    //     {
+    //         img: `https://premiumlayers.com/new/museum/wp-content/uploads/2015/10/event-img-3-289x365.jpg
+    //         `,
+    //         title: "ANCIENT BUILDING STRUCTURES",
+    //         location: " Melbourne, Australia",
+    //         time: "Wed 10AM - 12PM",
+    //         description:
+    //             "I have always wanted to have a neighbor just like you. I've always wanted to live in a neighborhood with you",
+    //     },
+    // ];
     const newsData = [
         {
             img: `https://premiumlayers.com/new/museum/wp-content/uploads/2015/10/event-img-4-289x365.jpg
@@ -83,9 +96,9 @@ const MainEventa = () => {
 
         <div className="row">
             <div className="col-md-7 offset-md-1">
-                <button onClick={uploadBlog}>upload blog</button>
+                {/* <button onClick={uploadBlog}>upload blog</button> */}
 
-                {eventData.map((dt) => (
+                {event.map((dt) => (
                     <EventCard dt={dt} />
                 ))}
             </div>

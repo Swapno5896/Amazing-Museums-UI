@@ -16,6 +16,7 @@ const TopBanner = () => {
               molestiae praesentium officia nostrum similique, suscipit earum!
               Eligendi dicta nihil quae quos nisi consequatur.
             </p>
+            <hr />
             <p className="text-center">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
               enim quis alias deleniti quaerat sunt ab, repudiandae error sed
@@ -32,13 +33,13 @@ const TopBanner = () => {
           >
             <div className="carousel-inner">
               <div className="carousel-item active" data-bs-interval="2000">
-                <img src={img1} className="d-block w-100" alt="..." />
+                <img src='https://premiumlayers.com/new/museum/wp-content/uploads/2015/10/event-img-2-289x365.jpg' className="d-block w-100" alt="..." />
               </div>
               <div className="carousel-item" data-bs-interval="1000">
-                <img src={img2} className="d-block w-100" alt="..." />
+                <img src='https://premiumlayers.com/new/museum/wp-content/uploads/2015/09/img-8.jpg' className="d-block w-100" alt="..." />
               </div>
               <div className="carousel-item" data-bs-interval="2000">
-                <img src={img3} className="d-block w-100" alt="..." />
+                <img src='https://premiumlayers.com/new/museum/wp-content/uploads/2015/10/event-img-1-289x365.jpg' className="d-block w-100" alt="..." />
               </div>
             </div>
             <button

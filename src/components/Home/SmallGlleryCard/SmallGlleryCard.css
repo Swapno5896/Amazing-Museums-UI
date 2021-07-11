@@ -1,6 +1,11 @@
 .small-gallary-card{
- overflow: hidden;
+overflow: hidden;
+height: 362px;
+}
+.small-gallary-img{
+ height: 300px;
 }
 .small-gallary-img:hover{
+ overflow: hidden;
  width: 110%; transition: ease-out .3s;
 }

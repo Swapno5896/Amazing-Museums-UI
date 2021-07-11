@@ -7,7 +7,7 @@ const SmallHistory = () => {
             <div className="container" >
                 <div className="row ">
                     <div className="col-md-6">
-                        <img className='small-history-img' src={img1} alt="" />
+                        <img className='small-history-img' src='https://premiumlayers.com/new/museum/wp-content/uploads/2015/10/event-img-1-289x365.jpg' alt="" />
                     </div>
                     <div className="col-md-5 ms-5" >
                         <h3 className='text-center pb-3'>This is museum</h3>

@@ -1,7 +1,11 @@
 .gallary-img:hover{
  width: 110%;
-
+ transition: ease-out .3s;
+}
+.gallary-img{
+ height: 300px;
 }
 .gallary-card{
+
  overflow: hidden;
 }
