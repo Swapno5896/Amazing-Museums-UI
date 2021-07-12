@@ -1,6 +1,4 @@
 follow : 
 https://premiumlayers.com/new/museum/event-page/
 
-event 
-
-gallary 
+ Live site : https://amazing-museum-49cb2.web.app/
