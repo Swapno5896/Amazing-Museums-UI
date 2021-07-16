@@ -10,14 +10,14 @@ const TopBanner = () => {
         <div className="col-md-6 d-flex align-items-center">
           <div>
             <h2 className="text-center pb-3">This is our musemume</h2>
-            <p className="text-center">
+            <p className="text-center p-3">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Architecto voluptate quae fuga velit error. Deserunt amet
               molestiae praesentium officia nostrum similique, suscipit earum!
               Eligendi dicta nihil quae quos nisi consequatur.
             </p>
             <hr />
-            <p className="text-center">
+            <p className="text-center p-3">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
               enim quis alias deleniti quaerat sunt ab, repudiandae error sed
               nisi earum, vitae quia cupiditate facilis esse hic quasi impedit
