@@ -10,7 +10,8 @@
 
 # Some interesting technology I used in this project is
 
-|
--React
--Typescript
--Sass
+- React
+- Typescript
+- Sass
+
+---
