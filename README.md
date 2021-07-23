@@ -1,6 +1,6 @@
-## Amazing Museum Site
+# Amazing Museum Site
 
-### sLive site :[Museum](https://amazing-museum-49cb2.web.app/ "Amazing Museum Site")
+### sLive site : [Museum](https://amazing-museum-49cb2.web.app/ "Amazing Museum Site")
 
 # Our site looks link :
 
@@ -8,7 +8,7 @@
 
 ---
 
-# Some interesting technology I used in this project is
+## Some interesting technology I used in this project is
 
 - React
 - Typescript
