@@ -1,6 +1,6 @@
 import React from 'react';
-import AddEvent from '../AddEvent/AddEvent';
-import AddGallery from '../AddGallery/AddGallery';
+import AddEvent from '../../components/Admin/AddEvent/AddEvent';
+import AddGallery from '../../components/Admin/AddGallery/AddGallery';
 
 const MainAdmin = () => {
     const handleSubmit = (data: object, url: string) => {

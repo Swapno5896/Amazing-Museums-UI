@@ -5,14 +5,14 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import MainHome from '../src/components/Home/MainHome/MainHome'
-import MainEventa from './components/Events/MainEventa/MainEventa';
-import MainGallary from '../src/components/Gallary/MainGallary/MainGallary'
+import MainHome from '../src/Pages/MainHome/MainHome'
+import MainEventa from './Pages/MainEventa/MainEventa';
+import MainGallary from '../src/Pages/MainGallary/MainGallary'
 import MyNavBar from './components/Home/myNavBar/MyNavBar';
-import MainAdmin from './components/Admin/MainAdmin/MainAdmin'
+import MainAdmin from './Pages/MainAdmin/MainAdmin'
 const App = () => {
   return (
-    <div>
+    <>
       <Router>
         <MyNavBar />
         <Switch>
@@ -35,7 +35,7 @@ const App = () => {
       </Router>
    
 
-    </div>
+    </>
   );
 };
 

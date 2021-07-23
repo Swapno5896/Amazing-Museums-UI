@@ -1,5 +1,5 @@
 import React from 'react';
-import HistoryCard from '../HistoryCard/HistoryCard';
+import HistoryCard from '../../components/History/HistoryCard/HistoryCard';
 
 const MinHistory = () => {
     return (

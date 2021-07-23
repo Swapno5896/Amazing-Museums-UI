@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import News from '../News/News';
-import EventCard from '../EventCard/EventCard'
-import ImageCard from './../ImageCard/ImageCard';
+import News from '../../components/Events/News/News';
+import EventCard from '../../components/Events/EventCard/EventCard'
+import ImageCard from '../../components/Events/ImageCard/ImageCard';
 
 interface Ievent {
     img: '';
