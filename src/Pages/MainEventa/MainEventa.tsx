@@ -99,7 +99,7 @@ const MainEventa = () => {
                 {/* <button onClick={uploadBlog}>upload blog</button> */}
 
                 {event.map((dt) => (
-                    <EventCard dt={dt} />
+                    <EventCard dt={dt} width={'w-100 '} />
                 ))}
             </div>
 

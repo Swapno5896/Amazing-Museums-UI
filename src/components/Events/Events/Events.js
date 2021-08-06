@@ -50,7 +50,7 @@ const Events = () => {
       <div className="d-flex justify-content-center">
         <div className="row w-75">
           {eventData.map((dt) => (
-            <EventCard dt={dt} />
+            <EventCard dt={dt} width={''} />
           ))}
         </div>
       </div>
