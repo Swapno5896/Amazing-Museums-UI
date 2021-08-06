@@ -1,7 +1,20 @@
-.top-banner-container {
-  background-color: rgb(199 209 209);
+.top-banner-main{
+  background-image: url('https://demoxml.com/html/museum/images/slides/slide-2.jpg');
+  height: 640px;
 }
-.carousel-item img {
-  height: 536px;
-  padding-top: 10px;
+
+.top-banner-title{
+  font-size: 60px;
+  color: azure;
+}
+.top-banner-container p{
+  color: azure;
+  text-transform: uppercase;
+}
+.top-banner-container button{
+  border-radius: 10px;
+  height: 54px;
+  width: 90px;
+  background-color: rgb(214, 136, 34);
+  margin: 20px;
 }
