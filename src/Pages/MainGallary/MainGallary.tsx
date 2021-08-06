@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import img1 from "../../../images/m-1.png";
 import GallaryCard from "../../components/Gallary/GallaryCard/GallaryCard";
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../../../images/m-1.png'
+import img1 from '../../../images/download.png'
 const HistoryCard = () => {
     return (
         <div>

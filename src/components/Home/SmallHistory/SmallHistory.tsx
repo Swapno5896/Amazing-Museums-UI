@@ -1,6 +1,6 @@
 import React from 'react';
 import './SmallHistory.css'
-import img1 from '../../../images/m-1.png'
+import img1 from '../../../images/download.png'
 const SmallHistory = () => {
     return (
         <div style={{ backgroundColor: ' #5c574f', padding: '80px 0px', margin: '100px 0px' }}>

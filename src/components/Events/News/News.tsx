@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../../images/m-1.png'
+import img from '../../../images/download.png'
 const News = (props: any) => {
     const { img, title, date } = props.dt;
     return (

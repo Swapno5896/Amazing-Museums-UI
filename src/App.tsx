@@ -10,6 +10,7 @@ import MainEventa from './Pages/MainEventa/MainEventa';
 import MainGallary from '../src/Pages/MainGallary/MainGallary'
 import MyNavBar from './components/Home/myNavBar/MyNavBar';
 import MainAdmin from './Pages/MainAdmin/MainAdmin'
+import Footer from "./components/Home/Footer/Footer";
 const App = () => {
   return (
     <>
@@ -32,6 +33,7 @@ const App = () => {
             <MainAdmin />
           </Route>
         </Switch>
+        <Footer />
       </Router>
    
 

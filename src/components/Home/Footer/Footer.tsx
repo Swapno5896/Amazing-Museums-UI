@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div style={{ backgroundColor: "rgba(0,0,0,0.8)", padding: '97px', color: 'white' }}>
+        <div style={{ backgroundColor: " #000000", padding: '97px', color: 'white' }}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-3">
@@ -18,7 +18,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3">
                         <h2>Guides</h2>
-                        | |  |
+                      
                         <p>Terms and Conditions</p>   <p>Refund policy</p>     <p>Terms & Conditions</p>   <p> Privacy Policy</p>
                     </div>
                     <div className="col-md-3">
