@@ -21,6 +21,9 @@ const ContactForm = () => {
                         </div>
                     </div>
                 </div>
+                <div className="col-md-6">
+                    {/* image hear */}
+                </div>    
             </div>
         </div>
     );

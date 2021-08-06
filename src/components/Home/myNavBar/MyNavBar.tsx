@@ -24,7 +24,13 @@ const MyNavBar = () => {
                             <Link className="nav-link  pe-4" to='/events'>Events</Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link  pe-4" to='/history'>History</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link  pe-4" to='/gallary'>Gallary</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link  pe-4" to='/contact'>Contact Us</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link  pe-4" to='/admin'>Admin</Link>

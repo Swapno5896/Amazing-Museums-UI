@@ -3,7 +3,7 @@ import './SmallHistory.css'
 import img1 from '../../../images/download.png'
 const SmallHistory = () => {
     return (
-        <div style={{ backgroundColor: ' #5c574f', padding: '80px 0px', margin: '100px 0px' }}>
+        <div style={{ backgroundColor: ' #5c574f', padding: '80px 0px' }}>
             <div className="container" >
                 <div className="row ">
                     <div className="col-md-6">

@@ -1,0 +1,12 @@
+.top-banner-history{
+    background-image: url('https://demoxml.com/html/museum/images/slides/slide-2.jpg');
+    height: 472px;
+}
+.top-banner-title{
+    font-size: 60px;
+    color: azure;
+  }
+  .top-banner-container p{
+    color: azure;
+    text-transform: uppercase;
+  }
