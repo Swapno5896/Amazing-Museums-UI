@@ -3,3 +3,15 @@
   padding-top: 52px;
   height: 476px;
 }
+.title{
+  font-size: 26px;
+  color: beige;
+}
+.history-detail p{
+  font-size: 17px;
+  color: beige;
+}
+.history-text p{
+  font-size: 18px;
+  color: beige;
+}
